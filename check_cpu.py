@@ -38,16 +38,16 @@ def main():
     c = int(options.critical)
     cpu = getCpu('/proc/stat')
     if cpu > w:
-        print "OK",'used ' + str(cpu)+'%'
+        print "OK",'USED ' + str(cpu)+'%'
         sys.exit(0)
     elif c < cpu <= w:
-        print "WARNING", 'used ' + str(cpu)+'%'
+        print "WARNING", 'USED ' + str(cpu)+'%'
         sys.exit(1)
     elif cpu < c:
-        print "CRITICAL", 'used ' + str(cpu)+'%'
+        print "CRITICAL", 'USED ' + str(cpu)+'%'
         sys.exit(2)
     else:
-        print "UNKNOWN", 'used ' + str(cpu)+'%'
+        print "UNKNOWN", 'USED ' + str(cpu)+'%'
         sys.exit(3)
 
 if __name__ == '__main__':
