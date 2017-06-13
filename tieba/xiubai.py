@@ -15,7 +15,7 @@ hds=[{'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) 
 #
 #    def 
 
-f = open('./xiubai.txt','w')
+f = open('./xiubai2.txt','w')
 def main():
     for i in range(1,36):
         url = 'https://www.qiushibaike.com/text/page/%s/?s=4989982'%(str(i))
