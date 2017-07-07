@@ -146,7 +146,7 @@ if __name__=='__main__':
             all_book_tag.append(tag)
     #print all_book_tag
     #book_tag_lists = ['个人管理','时间管理','投资','文化','宗教']
-    book_tag_list = ['linux', 'python', '数据库']
+    book_tag_list = ['linux']
     book_lists=do_spider(book_tag_list)
     print_book_lists_excel(book_lists,all_book_tag)
 
