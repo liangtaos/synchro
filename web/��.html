@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>
+            表单
+        </title>
+    </head>
+    <body>
+        <h1>From</h1>
+        <input type="text" name="user" size="20" maxlength="30" value="梁涛" />
+        <h2>多行文本</h2>
+        评论:<textarea name="" id="" cols="30" rows="1" value="123" align="top">评论</textarea>
+        <h2>密码域</h2>
+        密码：<input type="password" name="pwd" value="123" />
+        <h2>单选按钮</h2>
+        <input type="radio" name="book" value="book2" checked="checked" />HTML
+        <input type="radio" name="book" value="book1" />CSS
+        <input type="radio" name="book" value="book1" checked="checked" />Python
+        <input type="radio" name="book"  value="boo2" />PHP
+        <h2>复选框</h2>
+        <input type="checkbox" name="book" value="book1" />HTML
+        <input type="checkbox" name="book" value="book2" />CSS
+        <input type="checkbox" name="book" value="book3" />JS
+        <h2>列表框</h2>
+        <select name="" id="">
+            <option value="上海" selected="selected">上海</option>
+            <option value="北京">北京</option>
+            <option value="西安">西安</option>
+        </select>
+        <h2>多选列表框</h2>
+        <select name="" id="" multiple>
+            <option value="H5" selected="selected">H5</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+            <option value="Python">Python</option>
+        </select>
+        <h2>普通按钮</h2>
+        <button>确定</button>
+        <input type="button" value="确定" />
+        <h2>提交按钮</h2>
+        <input type="submit" value="提交" />
+        <h2>重置</h2>
+        <input type="reset" value="重置" />
+
+        <h2>EX</h2>
+        <form action="/" method="post">
+            <p>账号:<input type="text" name="zhanghao" value=""></p>
+            <p>密码:<input type="password" name="pwd"></p>
+            <input type="submit" value="登录" />
+        </form>
+    </body>
+</html>
