@@ -30,6 +30,7 @@ def getSysMem():
 def main():
     server = raw_input('please input you server : ')
     pid_nu = getPid(server)
+    print pid_nu
     all_server = 0
     for nu in pid_nu.split():
         mem = getMem(nu)

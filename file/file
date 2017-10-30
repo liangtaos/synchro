@@ -1,0 +1,4 @@
+my name is allen , i love python
+['my', 'name', 'is', 'allen', 'i', 'love', 'python']
+('my', 'name', 'is', 'allen', 'i', 'love', 'python')
+{"name": "allen", "interest": "python"}
